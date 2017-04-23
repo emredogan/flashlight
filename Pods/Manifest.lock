@@ -1,0 +1,12 @@
+PODS:
+  - RappleColorPicker (2.0.3)
+
+DEPENDENCIES:
+  - RappleColorPicker
+
+SPEC CHECKSUMS:
+  RappleColorPicker: 260eee37fab780eb5f7d51365470b50dcdddee1c
+
+PODFILE CHECKSUM: 17bbc245fa01e165e4aaceb9d46b0836fdf6b71f
+
+COCOAPODS: 1.2.0
