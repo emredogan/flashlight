@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "04C6AE43E4B452FC6F6EBB6DDCF758DBBEFF9E61",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "14E4E41A862C89F7BA0C79B2285C48758A8484F7" : 9223372036854775807,
+    "04C6AE43E4B452FC6F6EBB6DDCF758DBBEFF9E61" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "02CFB151-A894-46F0-98E5-5F6BB477013D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "14E4E41A862C89F7BA0C79B2285C48758A8484F7" : "..",
+    "04C6AE43E4B452FC6F6EBB6DDCF758DBBEFF9E61" : "flashLight\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "flashLight",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "flashLight.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:emredogan\/flashlight.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "04C6AE43E4B452FC6F6EBB6DDCF758DBBEFF9E61"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:emredogan\/findmytwinapp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "14E4E41A862C89F7BA0C79B2285C48758A8484F7"
+    }
+  ]
+}

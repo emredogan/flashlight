@@ -21,6 +21,7 @@ class ViewController: UIViewController, RappleColorPickerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.becomeFirstResponder() // To get shake gesture
         
         self.view.backgroundColor = UIColor.yellow
         button.setTitleColor(.black, for: .normal)
@@ -39,6 +40,27 @@ class ViewController: UIViewController, RappleColorPickerDelegate {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override var canBecomeFirstResponder: Bool {
+        get {
+            return true
+        }
+    }
+    
+    override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+        if motion == .motionShake {
+            print("Why are you shaking me?")
+            toggleFlash()
+            if button.title(for: UIControlState.normal) == "ON" {
+                button.setTitle("OFF", for: UIControlState.normal)
+            } else {
+                
+                button.setTitle("ON", for: UIControlState.normal)
+                
+                
+            }
+        }
     }
     
     func applicationDidEnterBackground(notification: NSNotification) {
